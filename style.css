@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+:root {
+    --font1: Verdana,Geneva,Tahoma,sans-serif;
+    --font2:'Passion One', sans-serif;
+    --font3:"Sriracha", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html,body {
+    background-color: #a9a9a9;
+    min-height: 100vh;
+    font-family: var(--font1);
+}
+   
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+header > h1 { 
+    padding-top: 50px;
+    font-family: var(--font2);
+    font-size: 10vw;
+    font-variant: small-caps ;
+}
+
+
+header > p {
+    font-family: Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+header a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 3.8vw;
+}
+
+
+section >p  {
+    padding-bottom: 2em;
+}
+
+
+section.normal {
+    background-color: #ffffff;
+    color: black;
+}
+
+
+section.imagem {
+    color: #ffffff;
+    background-color: #000000;
+    box-shadow: inset 6px 5px 13px 0px #01000089;
+}
+
+
+section.imagem > p {
+    background-color: #00000076;
+    display: inline-block;
+    padding: 8px;
+    text-shadow: 2px 2px 0px black;
+}
+
+
+#img01 {
+    background-image: url('imagens/wallpaper01.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#img02 {
+    background-image: url('imagens/wallpaper02.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+footer > p {
+    margin: 0px;
+}
